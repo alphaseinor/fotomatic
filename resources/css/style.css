@@ -63,6 +63,7 @@ nav li {
 }
 
 nav a {
+  font-family: "Roboto";
   vertical-align: bottom;
   line-height: 1.6;
   font-size: 1rem;
@@ -347,6 +348,7 @@ header .mobile {
 /* Quotes Section */
 
 #quotes-section {
+  padding: 5rem;
   background-color: #f3f3f3;
 }
 
@@ -354,7 +356,7 @@ header .mobile {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
